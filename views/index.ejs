@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Backbone+requirejs+express+mongodb</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <!-- 主容器 -->
+    <div id="container">
+      <!-- 遮罩 -->
+      <div class="overlay"></div>
+      <!-- 正文 -->
+      <div id="mid-container">
+        <!-- 顶部菜单 -->
+        <div id="mid-menu" class="content-border">
+          <ul class="mid-menu-ul clearfix">
+            <li class="mid-menu-ul-li active"><a class="mid-menu-ul-li-a" href="#">首页</a></li>
+            <li class="mid-menu-ul-li"><a class="mid-menu-ul-li-a" href="#">专题</a></li>
+            <li class="mid-menu-ul-li"><a class="mid-menu-ul-li-a" href="#">文章</a></li>
+            <li class="mid-menu-ul-li"><a class="mid-menu-ul-li-a" href="#">关于</a></li>
+            <li class="mid-menu-ul-li"><a class="mid-menu-ul-li-a" href="#">ASK</a></li>
+          </ul>
+        </div>
+        
+        <div id="mid-content-container" class="content-border clearfix">
+          <div id="mid-left-content" class="content-thin-border">
+            <div class="article">
+              <a href="#" class="article-a">文章一</a>
+              <p class="article-p">
+                效果是让我们实现了，但其扩展性那就不一定强了。示例中只显示了五页和向前向后的七个显项，但往往我们很多情况下是不知道会有多少个分页项显示出来，而且也无法确定每个分页选项的宽度是多少，也就无法确认容器的宽度。
+              </p>
+            </div>
+            <div class="article">
+              <a href="#" class="article-a">文章二</a>
+              <p class="article-p">
+                效果是让我们实现了，但其扩展性那就不一定强了。示例中只显示了五页和向前向后的七个显项，但往往我们很多情况下是不知道会有多少个分页项显示出来，而且也无法确定每个分页选项的宽度是多少，也就无法确认容器的宽度。
+              </p>
+            </div>
+          </div>
+
+          <div id="mid-right-search" class="content-thin-border">
+            <input type="text" name="search" id="content-search" class="content-thinner-border" />
+            <span class="search-icon"></span>
+            <div id="label-cloud" class="clearfix">
+              <span class="label-cloud content-thinner-border label-cloud-a"><a href="">Node.js</a></span>
+              <span class="label-cloud content-thinner-border label-cloud-a"><a href="">Javascript</a></span>
+              <span class="label-cloud content-thinner-border label-cloud-a"><a href="">Css</a></span>
+              <span class="label-cloud content-thinner-border label-cloud-a"><a href="">Html</a></span>
+              <span class="label-cloud content-thinner-border label-cloud-a"><a href="">Mongodb</a></span>
+              <span class="label-cloud content-thinner-border label-cloud-a"><a href="">Mysql</a></span>
+              <span class="label-cloud content-thinner-border label-cloud-a"><a href="">Ruby</a></span>
+              <span class="label-cloud content-thinner-border label-cloud-a"><a href="">Rails</a></span>
+              <span class="label-cloud content-thinner-border label-cloud-a"><a href="">Encrypt</a></span>
+              <span class="label-cloud content-thinner-border label-cloud-a"><a href="">Redis</a></span>
+              <span class="label-cloud content-thinner-border label-cloud-a"><a href="">Nginx</a></span>
+              <span class="label-cloud content-thinner-border label-cloud-a"><a href="">Npm</a></span>
+              <span class="label-cloud content-thinner-border label-cloud-a"><a href="">Nvm</a></span>
+              <span class="label-cloud content-thinner-border label-cloud-a"><a href="">Rvm</a></span>
+            </div>
+          </div>
+          <div id="mid-right-other" class="content-thin-border">
+            
+          </div>
+
+          <div id="pagination" class="pagination clearfix">
+            <ul class="pagination-ul clearfix">
+              <li class="pagination-ul-li"><a href="#" class="pagination-ul-li-a content-thinner-border"><<</a></li>
+              <li class="pagination-ul-li"><a href="#" class="pagination-ul-li-a content-thinner-border">1</a></li>
+              <li class="pagination-ul-li"><a href="#" class="pagination-ul-li-a content-thinner-border">2</a></li>
+              <li class="pagination-ul-li"><a href="#" class="pagination-ul-li-a content-thinner-border">3</a></li>
+              <li class="pagination-ul-li"><a href="#" class="pagination-ul-li-a content-thinner-border">4</a></li>
+              <li class="pagination-ul-li"><a href="#" class="pagination-ul-li-a content-thinner-border">5</a></li>
+              <li class="pagination-ul-li"><a href="#" class="pagination-ul-li-a content-thinner-border">6</a></li>
+              <li class="pagination-ul-li"><a href="#" class="pagination-ul-li-a content-thinner-border">7</a></li>
+              <li class="pagination-ul-li"><a href="#" class="pagination-ul-li-a content-thinner-border">8</a></li>
+              <li class="pagination-ul-li"><a href="#" class="pagination-ul-li-a content-thinner-border">>></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
